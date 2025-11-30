@@ -1,0 +1,38 @@
+--- Python & System ---
+
+pycache/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+--- Virtual Environments ---
+
+venv/
+env/
+.env
+
+--- IDE Settings ---
+
+.vscode/
+.idea/
+
+--- Data Handling ---
+
+Ignore all CSVs by default (prevents uploading massive datasets)
+
+*.csv
+
+--- Whitelist (Allow these specific files to be uploaded) ---
+
+!lens_guard_test_sample_500.csv
+!lens_guard_test_sample_1000.csv
+!lens_guard_template.csv
+
+--- Model Artifacts (MUST be uploaded) ---
+
+Do NOT ignore these, or your app will fail
+
+!student_cnn.keras
+!vae_weights.weights.h5
+!scaler.pkl
+!config.json
