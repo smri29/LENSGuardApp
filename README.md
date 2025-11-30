@@ -36,8 +36,8 @@ LENS_Guard_App/
 
 Clone the repository and install the required dependencies:
 
-git clone [https://github.com/YOUR_USERNAME/LENS-Guard-App.git](https://github.com/YOUR_USERNAME/LENS-Guard-App.git)
-cd LENS-Guard-App
+git clone [https://github.com/YOUR_USERNAME/LENS-Guard-App.git](https://github.com/smri29/LENSGuardApp.git)
+cd LENSGuardApp
 pip install -r requirements.txt
 
 
